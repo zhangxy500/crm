@@ -1,9 +1,9 @@
 package com.neusoft.crm.entity;
 
-public class sysUser {
+public class SysUser {
 private int userId;
 private String userName;
-private String Password;
+private String userPassword;
 private int daId;
 private int userRoleId;
 public int getUserId() {
@@ -18,11 +18,11 @@ public String getUserName() {
 public void setUserName(String userName) {
 	this.userName = userName;
 }
-public String getPassword() {
-	return Password;
+public String getUserPassword() {
+	return userPassword;
 }
-public void setPassword(String password) {
-	Password = password;
+public void setUserPassword(String userPassword) {
+	this.userPassword = userPassword;
 }
 public int getDaId() {
 	return daId;
@@ -36,5 +36,6 @@ public int getUserRoleId() {
 public void setUserRoleId(int userRoleId) {
 	this.userRoleId = userRoleId;
 }
+
 
 }
